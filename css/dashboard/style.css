@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(111, 137, 209);
+}
+
+/* .container {
+    margin: auto;
+    background-color: rgb(89, 154, 211);
+    border-radius: 5px;
+    width: 10%;
+    border: 3px solid rgb(78, 82, 78);
+    padding: 10px;
+    text-align: center;
+} */
+
+/* a */
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a.agithub:hover, a.agithub:active {
+    color: black;
+}
+
+a.atwitter:hover, a.atwitter:active {
+    color: skyblue;
+}
+
+a.afacebook:hover, a.afacebook:active {
+    color: blue;
+}
+
+a.ayoutube:hover, a.ayoutube:active {
+    color: red;
+}
+
+/* container */
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.container-github {
+    height: 20px;
+    width: 10%;
+    outline: 2px solid #000000;
+    outline-offset: -5px;
+    background: #333;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container-twitter {
+    height: 20px;
+    width: 10%;
+    outline: 2px solid #22abeb;
+    outline-offset: -5px;
+    background: #333;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container-facebook {
+    height: 20px;
+    width: 10%;
+    outline: 2px solid #001aff;
+    outline-offset: -5px;
+    background: #333;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container-youtube {
+    height: 20px;
+    width: 10%;
+    outline: 2px solid #a80c0c;
+    outline-offset: -5px;
+    background: #333;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Picture */
+.picmy {
+    text-align: center;
+}
+
+.picmy-o {
+    border: 5px solid #555;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 140px;
+}
+
+/* PreProject */
+.pre-project {
+    margin: auto;
+    width: 110px;
+    border: 3px solid #2c1c4b;
+    text-align: center;
+}
